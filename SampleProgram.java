@@ -8,9 +8,9 @@ public class SampleProgram {
         int b = 20;
 
         int sum = a + b;
-        int diff = a - b;
+        
 
         System.out.println("Sum = " + sum);
-        System.out.println("Difference = " + diff);
+        
     }
 }
