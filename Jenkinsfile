@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Compile') {
             steps {
-                bat 'javac jenkinsDemo\\SampleProgram.java'
+                bat 'javac SampleProgram.java'
             }
         }
 
         stage('Run') {
             steps {
-                bat 'java jenkinsDemo.SampleProgram'
+                bat 'java SampleProgram'
             }
         }
     }
